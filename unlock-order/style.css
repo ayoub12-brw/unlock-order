@@ -1,0 +1,51 @@
+body {
+    font-family: 'Tajawal', Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+    direction: rtl;
+}
+h2 {
+    color: #1abc4c;
+    text-align: center;
+    margin-bottom: 24px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+button {
+    width: 100%;
+    background: #1abc4c;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #159c3a;
+}
+#successMsg {
+    text-align: center;
+    margin-top: 20px;
+}
